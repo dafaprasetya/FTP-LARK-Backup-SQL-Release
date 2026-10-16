@@ -124,4 +124,4 @@ Jika aplikasi terdeteksi sebagai ancaman atau file executable terhapus/diblokir 
 ## Kontak
 
 Prahari Tech General Advisor (PTGA)
-Email: cs@ptga.my.id
+Email: customerservice@ptga.my.id
