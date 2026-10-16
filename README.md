@@ -29,13 +29,15 @@ Dikembangkan oleh Prahari Tech General Advisor (PTGA).
 2. Pastikan struktur foldernya seperti berikut:
 
 ```
-SQLBackup\
+FTP & LARK Backup SQL\
 ├── App.exe
+├── logo.ico
+├── assets
+    ├── logo.ico
+    └── logo.PNG
 └── utils\
-    └── mysql\
-        └── bin\
-            ├── mysqldump.exe
-            └── (file .dll bawaan mysqldump)
+    ├── mysql\
+    └── pgsql\
 ```
 
 3. Jalankan `App.exe`.
