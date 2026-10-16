@@ -4,6 +4,11 @@ Aplikasi desktop Windows untuk membackup database MySQL dan PostgreSQL, lalu men
 
 Dikembangkan oleh Prahari Tech General Advisor (PTGA).
 
+## SCREENSHOT
+<img width="1364" height="767" alt="image" src="https://github.com/user-attachments/assets/7ec9712b-0276-4e2a-9b6c-16f65dde3987" />
+<img width="614" height="297" alt="image" src="https://github.com/user-attachments/assets/7dd0a222-8d8d-427a-86a2-bd785ed87d8f" />
+
+
 ## Fitur
 
 - Backup MySQL (memakai `mysqldump`) dan PostgreSQL (memakai `pg_dump`).
