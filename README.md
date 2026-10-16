@@ -40,9 +40,9 @@ FTP & LARK Backup SQL\
     └── pgsql\
 ```
 
-3. Jalankan `App.exe`.
+3. Jalankan `FTP-And-Lark-Backup-SQL.exe`.
 
-File `key.prstya`, `settings.prstya`, dan `database.prstya` dibuat otomatis oleh aplikasi di folder yang sama dengan `App.exe`. Jangan dipindahkan atau dihapus, kecuali memang ingin mereset konfigurasi.
+File `key.prstya`, `settings.prstya`, dan `database.prstya` dibuat otomatis oleh aplikasi di folder yang sama dengan `FTP-And-Lark-Backup-SQL.exe`. Jangan dipindahkan atau dihapus, kecuali memang ingin mereset konfigurasi.
 
 ### Database
 
@@ -103,6 +103,18 @@ Sertakan nama perusahaan dan serial number perangkat (tampil di jendela Aktivasi
 ## Keamanan
 
 Password database, App Secret Lark, dan password FTP tersimpan di `settings.prstya` dan `database.prstya` pada komputer ini. Batasi akses ke folder aplikasi hanya untuk pengguna yang berwenang, dan jangan membagikan file-file tersebut.
+
+
+## Disclaimer & Peringatan Anti-Virus
+
+Aplikasi ini **bukan merupakan virus atau malware**. 
+
+Beberapa program Anti-Virus atau Windows Defender mungkin memberikan peringatan *false positive* (deteksi palsu) atau memblokir file `FTP-And-Lark-Backup-SQL.exe`. Hal ini dapat terjadi karena aplikasi belum ditandatangani dengan *digital certificate* (code signing) komersial, serta adanya fitur keamanan internal yang memproteksi lisensi perangkat.
+
+Jika aplikasi terdeteksi sebagai ancaman atau file executable terhapus/diblokir secara otomatis, ikuti langkah berikut:
+
+1. **Pulihkan File dari Karantina:** Buka menu Anti-Virus atau Windows Defender Anda, cari menu **Quarantine / Karantina**, lalu pilih file aplikasi ini dan lakukan **Restore / Pulihkan**.
+2. **Tambahkan Pengecualian (Exclusion):** Tambahkan folder aplikasi `FTP & LARK Backup SQL` ke dalam daftar **Exclusion / Pengecualian (Allowed Threats)** di Anti-Virus Anda agar proses backup otomatis dan akses file lisensi tidak terganggu di kemudian hari.
 
 ## Kontak
 
