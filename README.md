@@ -44,13 +44,9 @@ FTP & LARK Backup SQL\
 
 File `key.prstya`, `settings.prstya`, dan `database.prstya` dibuat otomatis oleh aplikasi di folder yang sama dengan `App.exe`. Jangan dipindahkan atau dihapus, kecuali memang ingin mereset konfigurasi.
 
-### PostgreSQL
+### Database
 
-Backup PostgreSQL membutuhkan `pg_dump`. Pastikan `pg_dump.exe` sudah terpasang dan terdaftar di `PATH` Windows. Gunakan versi yang sama atau lebih baru dari server PostgreSQL yang dibackup. Binary zip (tanpa installer) tersedia di <https://www.enterprisedb.com/download-postgresql-binaries>.
-
-### MySQL
-
-Rilis ini membawa `mysqldump` versi 8.0. Opsi `--column-statistics=0` sudah dipakai, sehingga kompatibel juga dengan server MySQL 5.7 dan MariaDB.
+Rilis ini membawa `mysqldump` dan 'pg_dump'. Opsi `--column-statistics=0` sudah dipakai, sehingga kompatibel juga dengan server MySQL 5.7 dan MariaDB.
 
 ## Penggunaan
 
