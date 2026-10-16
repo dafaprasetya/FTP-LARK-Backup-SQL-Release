@@ -30,7 +30,7 @@ Dikembangkan oleh Prahari Tech General Advisor (PTGA).
 
 ```
 FTP & LARK Backup SQL\
-├── App.exe
+├── FTP-And-Lark-Backup-SQL.exe
 ├── logo.ico
 ├── assets\
     ├── logo.ico
